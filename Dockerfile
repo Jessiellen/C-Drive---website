@@ -6,10 +6,6 @@ WORKDIR /app
 
 COPY . .
 
-COPY backend/ /app/
-
-COPY frontend/ /app/frontend/
-
 EXPOSE 8000
 
 RUN poetry install
